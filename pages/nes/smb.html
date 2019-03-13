@@ -1,11 +1,37 @@
-<!DOCTYPE html>
-<html>
-<h1>Super Mario Bros.</h1>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>BestClassic</title>
+    <meta name="description" content="Best classic games, from NES to GBA.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
 <body>
+	<header>
+		<div id="logo"><img src="/logo.png">BestClassic</div>
+		<nav>  
+			<ul>
+				<li><a href="/">Home</a>
+				<li><a href="/pages/nes.html">NES</a>
+				<li><a href="/pages/snes.html">SNES</a>
+				<li><a href="/pages/gb.html">Gameboy</a>
+				<li><a href="/pages/gba.html">Gameboy Advance</a>
+				<li><a href="/pages/gbc.html">Gameboy Color</a>
 
-
-<div>
-	<div id="emulator">
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<strong>Welcome to BestClassic! This is a second rendition of our partner site <a href="https://best-games.github.io">best-games</a></strong>
+	</section>
+	<section id="pageContent">
+		<main role="main">
+			<div id="emulator">
 		<p>To play this game, please, download the latest Flash player!</p>
 		<br>
 		<a href="http://www.adobe.com/go/getflashplayer">
@@ -18,14 +44,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 
 <script type="text/javascript">
-
 	var resizeOwnEmulator = function(width, height)
 	{
 		var emulator = $('#emulator');
 		emulator.css('width', width);
 		emulator.css('height', height);
 	}
-
 	$(function()
 	{
 		function embed()
@@ -36,7 +60,7 @@
 				var flashvars = 
 				{
 					system : 'nes',
-					url : '/ROMS/NES/smb.nes'
+					url : '/roms/NES/smb.nes'
 				};
 				var params = {};
 				var attributes = {};
@@ -45,7 +69,7 @@
 				params.allowFullScreen = 'true';
 				params.allowFullScreenInteractive = 'true';
 				
-				swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
+				swfobject.embedSWF('bin/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
 			}
 		}
 		
@@ -53,5 +77,16 @@
 	});
 	
 </script>
+		</main>
+	</section>
+	<footer>
+		<p>&copy; Template from <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> | Site made by blobertthebob and Hydra#9400</p>
+		<address>
+			Contact: <a href="mailto:nkubiak455@gmail.com">Mail me</a>
+		</address>
+	</footer>
+
+
 </body>
+
 </html>
