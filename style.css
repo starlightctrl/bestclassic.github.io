@@ -47,7 +47,7 @@ nav ul {
 }
 #pageContent {
     max-width: 1000px;
-    margin: 35px;
+    margin: auto;
     border: 2px;
 }
 main {
@@ -81,7 +81,7 @@ footer {
 	text-align: right;
 }
 footer p {
-	padding: 20px;
+	padding: 60px;
 }
 address {
     padding: 10px 20px 30px 10px;
