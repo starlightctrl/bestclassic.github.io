@@ -32,7 +32,7 @@ nav ul li a {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #444;
+    color: #2d6829;
     border-radius: 10px;
 }
 nav ul li a:hover {
@@ -48,7 +48,7 @@ nav ul {
 #pageContent {
     max-width: 1000px;
     margin: auto;
-    border: none;
+    border: 2px;
 }
 main {
 	float: left;
@@ -88,7 +88,7 @@ address {
 }
 aside > div {
 	margin: 10px auto;
-	background: #99ff66;
+	background: #c8ffc4;
 	min-height: 100px;
 }
 #logo {
