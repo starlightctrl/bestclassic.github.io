@@ -18,7 +18,7 @@ body,html {
 	background-color: #FFF;
 }
 header {
-    background: #99ff66;
+    background: #c8ffc4;
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
@@ -74,7 +74,7 @@ main section {
 	
 }
 footer {
-	background: #99ff66;
+	background: #c8ffc4;
 	max-width: 1000px;
 	margin: auto;
 	clear: both;
