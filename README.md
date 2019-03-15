@@ -1,5 +1,3 @@
-hey jakub go on hangouts on your chromebook if you can k
-
 # Best Classic
 
 <img src="https://lh3.googleusercontent.com/_YL2Ngc8ZIGKCCQ3ELC9lxFpkk6nW1R-FnvHa3Myo9b8F5LpOevS3CXKpRwLtZVMP0Ki=s78">
