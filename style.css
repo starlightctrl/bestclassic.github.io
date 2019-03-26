@@ -89,7 +89,7 @@ address {
 aside > div {
 	margin: 10px auto;
 	background: #68db60;
-	min-height: 70px;
+	min-height: 80px;
 }
 #logo {
     display: inline-block;
