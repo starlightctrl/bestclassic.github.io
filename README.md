@@ -10,7 +10,7 @@ BestClassic is not affiliated with the owners and copyright holders of included 
 
 # DMCA Removal Requests
 
-If you wish to submit a DMCA claim to remove select content from BestClassic, provide the following within an email to bestclassic@protonmail.com:
+If you wish to submit a DMCA claim to remove select content from BestClassic, provide the following within an email to bestclassicgit@gmail.com:
 
 - Identification of the copyrighted work that you claim has been infringed
 - An exact description of where the material about which you complain is located within bestclassic.github.io
