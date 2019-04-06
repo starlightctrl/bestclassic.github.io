@@ -8,8 +8,8 @@
     <title>BestClassic</title>
     <meta name="description" content="Best classic games, from NES to GBA.">
     <link rel="stylesheet" href="/style.css">
-    <script src="script.js"></script>
-	 <link rel="shortcut icon" type="image/png" href="/faviconbackup.png"/>
+    <script src="/script.js"></script>
+	   <link rel="shortcut icon" type="image/png" href="/faviconbackup.png"/>
 </head>
 
 <body>
@@ -32,31 +32,25 @@
 		</nav>
 	</header>
 	<section>
-		<strong>Welcome to the BestClassic Nintendo 64 page.</a></strong>
+		<strong>Welcome to BestClassic! This is a second rendition of our partner site <a href="https://best-games.github.io">best-games</a></strong>
 	</section>
 	<section id="pageContent">
 		<main role="main">
-			<h3>Disclaimer: These games will not run well on Chromebooks and other similar hardware.</h3>
-	<ul>
-		<li><a href="/pages/nds/mkds.html">Mario Kart DS</a> </li>
-		<li><a href="/pages/nds/pokemondiamond.html">Pokemon Diamond</a> </li>
-		<li><a href="/pages/nds/pokemonhgold.html">Pokemon HeartGold</a> </li>
-		<li><a href="/pages/nds/pokemonssilver.html">Pokemon SoulSilver</a> </li>
-		<li><a href="/pages/nds/pokemonplat.html">Pokemon Platinum</a> </li>
-
-		<p>
-			<br>
-		</p>
-	</ul>
+			<div style="width:640px;height:480px"><div id="game"></div></div>
+<script>
+EJS_player = '#game';
+EJS_gameUrl = '/ROMS/NDS/pokemonhgold.rar';
+EJS_core = 'nds';
+</script>
+<script src="/loader.js" crossorigin="anonymous"></script>
 		</main>
 	</section>
-  <section>
-	  
-	
 	<footer>
 		<p>&copy; Template from <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> | Site made by blobertthebob#3284 and Hydra#9400</p>
 	</footer>
 
 
+
 </body>
+
 </html>
