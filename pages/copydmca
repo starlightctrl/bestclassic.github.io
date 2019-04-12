@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>BestClassic</title>
+    <meta name="description" content="Best classic games, from NES to GBA.">
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js"></script>
+	 <link rel="shortcut icon" type="image/png" href="/faviconbackup.png"/>
+</head>
+
+<body>
+	<header>
+		<div id="logo"><img src="/logo.png">BestClassic</div>
+		<nav>  
+			<ul>
+				<li><a href="/">Home</a>
+				<li><a href="/pages/gamereq.html">Requests</a>
+				<li><a href="/pages/nes.html">NES</a>
+				<li><a href="/pages/snes.html">SNES</a>
+				<li><a href="/pages/gb.html">Gameboy</a>
+				<li><a href="/pages/gba.html">Gameboy Advance</a>
+				<li><a href="/pages/genesis.html">Sega Genesis</a>
+				<li><a href="/pages/n64.html">Nintendo 64</a>
+				<li><a href="/pages/nds.html">Nintendo DS</a>
+				
+
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<strong>This is the BestClassic Game Requests page. If you want a game on our site that we do not have, request it using the form below. </a></strong>
+	</section>
+	<section id="pageContent">
+<main role="main">
+    <h1>Copyright</h1>
+    <p>BestClassic is not affiliated with the owners and copyright holders of included IPs. We recognize that all games and their contents are owned and copyrighted ONLY by their respective authors, owners, and publishers.</p>
+</main>
+    <h2>DMCA Removal Requests</h2>
+    <p>If you wish to submit a DMCA claim to remove select content from BestClassic, provide the following within an email to bestclassicgit@gmail.com:
+
+- Identification of the copyrighted work that you claim has been infringed
+- An exact description of where the material about which you complain is located within bestclassic.github.io
+- Your address, telephone number, and email address
+- A statement by you that you have a good-faith belief that the disputed use is not authorized by the copyright owner, its agent,     or the law;
+- A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the       owner of the copyright interest involved or are authorized to act on behalf of that owner;
+- Your electronic or physical signature.</p>
+	</section>
+  <section>
+	  
+	
+	<footer>
+		<p>&copy; Template from <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> | Site made by blobertthebob#3284 and Hydra#9400</p>
+	</footer>
+
+
+</body>
+</html>
